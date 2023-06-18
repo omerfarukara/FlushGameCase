@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6562d9508dc3c45c59db7d5d37ca9a95, type: 3}
+  m_Name: GemData
+  m_EditorClassIdentifier: 
+  gemTypes:
+  - id: 0
+    name: Green
+    price: 50
+    icon: {fileID: 21300000, guid: 0ff22bf17172e457e8c3ceaee846a5c2, type: 3}
+    mesh: {fileID: 4126542436946315128, guid: 46d2dcc058b6b4dd6abe7e8de6740487, type: 3}
+    material: {fileID: 2100000, guid: 9bcceea948f944a888a6488349b79baa, type: 2}
+  - id: 1
+    name: Yellow
+    price: 100
+    icon: {fileID: 21300000, guid: c2b57eff7853041bc8a76c0934d077bd, type: 3}
+    mesh: {fileID: -536243315086849303, guid: 1de4661e3501b429189b7dabb1755e4b, type: 3}
+    material: {fileID: 2100000, guid: 53e5d2835dfc84360b021d15377aee26, type: 2}
+  - id: 2
+    name: Pink
+    price: 200
+    icon: {fileID: 21300000, guid: e6cd63aeaef444eabae0f142220ec47f, type: 3}
+    mesh: {fileID: -4577554125874261984, guid: f232346cc72334c0e9d881d51a2d3966, type: 3}
+    material: {fileID: 2100000, guid: e1ea72b6149b64549b236a4a5a997680, type: 2}
